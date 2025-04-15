@@ -1,0 +1,74 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+    .calculadora {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      width: 260px;
+    }
+    .tela {
+      background: #fff;
+      height: 40px;
+      margin-bottom: 10px;
+      text-align: right;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+    .botoes {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    button {
+      padding: 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      background: #444;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculadora">
+    <div class="tela">0</div>
+    <div class="botoes">
+      <button>C</button>
+      <button>±</button>
+      <button>%</button>
+      <button>/</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>*</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>-</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>+</button>
+      <button>0</button>
+      <button>.</button>
+      <button colspan="2">=</button>
+    </div>
+  </div>
+</body>
+</html>
